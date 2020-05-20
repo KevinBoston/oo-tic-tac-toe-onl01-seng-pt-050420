@@ -59,7 +59,7 @@ class TicTacToe
     full? && !won?
   end
   def over?
-    won? || full?
+    won? || draw?
   end
   def winner
     if combo = won?
